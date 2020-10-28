@@ -27,7 +27,7 @@ namespace NetCore.Docker
                 }
                 else
                 {
-                    Console.WriteLine("\n Oh, Jeez :(    here's an EXAMPLE: \nRenat Shakirov\n");
+                    Console.WriteLine("\n Oh, Blin :(    here's an EXAMPLE: \nRenat Shakirov\n");
                     string myName3 = Console.ReadLine();
                     Console.WriteLine(" \n     -____-    okay, here is my   GitHub:\n  https://github.com/Kusanagi-2029?tab=repositories");
                 }
