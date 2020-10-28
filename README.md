@@ -21,9 +21,20 @@ https://github.com/docker/buildx/issues/415
 ![docker-error 5](https://user-images.githubusercontent.com/71845085/97424333-9c30ef80-1921-11eb-8fa9-f802d8a64d76.PNG)
 ![docker-error 6](https://user-images.githubusercontent.com/71845085/97424336-9cc98600-1921-11eb-9c4d-095e931c2c34.PNG)
 ![docker-error 7](https://user-images.githubusercontent.com/71845085/97424340-9dfab300-1921-11eb-96da-beef5dcb8fa9.PNG)
-![simpleNetCoreApp](https://user-images.githubusercontent.com/71845085/97424386-afdc5600-1921-11eb-8d41-012b3950336e.PNG)
 
-Спасибо за уделённое время этому куску Г ( ГитХаба)!
+1) Итак, мы создали .netCore приложение в C:\Users\vanger_biburat\source\repos\NetCore_Docker\App ;
+2) Опубликовали его, предварительно проверив: dotnet publish -c Release ;
+3) Убедились при помощи команды Get-ChildItem -Path C:\Users\vanger_biburat\source\repos\NetCore_Docker\App\bin\Release\netcoreapp3.1\publish -Force, что в указанной в команде директории был создан файл NetCore.Docker.dll ;
+4) В папке с проектом (.csproj) создали текстовый файл без указания расширения Dockerfile с инструкциями для Docker'а;
+5) Забилдили образ нашего приложения: docker build -t counter-image -f Dockerfile.txt . ;
+
+Обратите внимание! Мы, в отличие от примера в документации от Майкрософт, в команде УКАЗЫВАЕМ расширение Dockerfile: Dockerfile.txt. Иначе сам Docker его не видит!
+6) Произвели однократный запуск контейнера: docker run -it --rm counter-image ;
+
+Docker предоставляет единую команду docker run для создания и запуска контейнера. Она исключает необходимость в поочередном выполнении команд docker create и docker start. Вы также можете настроить ее для автоматического удаления контейнера при его остановке. Например, команда docker run -it --rm выполняет две операции. Сначала она автоматически подключается к контейнеру с помощью текущего терминала, а потом, после завершения работы контейнера, удаляет его.
+
+
+Спасибо за уделённое время этому куску Г... ( ГитХаба)!
  Скорее всего, сейчас Вы смотрите на меня так же, но я только учусь!
 
 ![me](https://user-images.githubusercontent.com/71845085/97424264-86232f00-1921-11eb-9083-b05d2b951591.png)
