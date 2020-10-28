@@ -1,0 +1,13 @@
+C:\Users\vanger_biburat\source\repos\NetCore_Docker\App\bin\Release\netcoreapp3.1\NetCore.Docker.exe
+C:\Users\vanger_biburat\source\repos\NetCore_Docker\App\bin\Release\netcoreapp3.1\NetCore.Docker.deps.json
+C:\Users\vanger_biburat\source\repos\NetCore_Docker\App\bin\Release\netcoreapp3.1\NetCore.Docker.runtimeconfig.json
+C:\Users\vanger_biburat\source\repos\NetCore_Docker\App\bin\Release\netcoreapp3.1\NetCore.Docker.runtimeconfig.dev.json
+C:\Users\vanger_biburat\source\repos\NetCore_Docker\App\bin\Release\netcoreapp3.1\NetCore.Docker.dll
+C:\Users\vanger_biburat\source\repos\NetCore_Docker\App\bin\Release\netcoreapp3.1\NetCore.Docker.pdb
+C:\Users\vanger_biburat\source\repos\NetCore_Docker\App\obj\Release\netcoreapp3.1\NetCore.Docker.csprojAssemblyReference.cache
+C:\Users\vanger_biburat\source\repos\NetCore_Docker\App\obj\Release\netcoreapp3.1\NetCore.Docker.AssemblyInfoInputs.cache
+C:\Users\vanger_biburat\source\repos\NetCore_Docker\App\obj\Release\netcoreapp3.1\NetCore.Docker.AssemblyInfo.cs
+C:\Users\vanger_biburat\source\repos\NetCore_Docker\App\obj\Release\netcoreapp3.1\NetCore.Docker.csproj.CoreCompileInputs.cache
+C:\Users\vanger_biburat\source\repos\NetCore_Docker\App\obj\Release\netcoreapp3.1\NetCore.Docker.dll
+C:\Users\vanger_biburat\source\repos\NetCore_Docker\App\obj\Release\netcoreapp3.1\NetCore.Docker.pdb
+C:\Users\vanger_biburat\source\repos\NetCore_Docker\App\obj\Release\netcoreapp3.1\NetCore.Docker.genruntimeconfig.cache
