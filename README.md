@@ -26,12 +26,17 @@ https://github.com/docker/buildx/issues/415
 2) Опубликовали его, предварительно проверив: dotnet publish -c Release ;
 3) Убедились при помощи команды Get-ChildItem -Path C:\Users\vanger_biburat\source\repos\NetCore_Docker\App\bin\Release\netcoreapp3.1\publish -Force, что в указанной в команде директории был создан файл NetCore.Docker.dll ;
 4) В папке с проектом (.csproj) создали текстовый файл без указания расширения Dockerfile с инструкциями для Docker'а;
-5) Забилдили образ нашего приложения: docker build -t counter-image -f Dockerfile.txt . ;
+5) Забилдили образ с названием counter-image нашего приложения: docker build -t counter-image -f Dockerfile.txt . ;
 
 Обратите внимание! Мы, в отличие от примера в документации от Майкрософт, в команде УКАЗЫВАЕМ расширение Dockerfile: Dockerfile.txt. Иначе сам Docker его не видит!
+
 6) Произвели однократный запуск контейнера: docker run -it --rm counter-image ;
 
 Docker предоставляет единую команду docker run для создания и запуска контейнера. Она исключает необходимость в поочередном выполнении команд docker create и docker start. Вы также можете настроить ее для автоматического удаления контейнера при его остановке. Например, команда docker run -it --rm выполняет две операции. Сначала она автоматически подключается к контейнеру с помощью текущего терминала, а потом, после завершения работы контейнера, удаляет его.
+
+![simpleNetCoreApp2](https://user-images.githubusercontent.com/71845085/97429341-59bee100-1928-11eb-9548-343739ab9652.PNG)
+![simpleNetCoreApp](https://user-images.githubusercontent.com/71845085/97429344-5c213b00-1928-11eb-99ec-956d054111d0.PNG)
+![simpleNetCoreApp1](https://user-images.githubusercontent.com/71845085/97429346-5cb9d180-1928-11eb-91e3-3d2383c1aefa.PNG)
 
 
 Спасибо за уделённое время этому куску Г... ( ГитХаба)!
