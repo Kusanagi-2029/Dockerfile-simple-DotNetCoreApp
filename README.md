@@ -8,6 +8,7 @@ https://github.com/docker/buildx/issues/415
 
 А вот видео на youtube, в котором я ВКРАТЦЕ излагаю проблему: https://www.youtube.com/watch?v=w-eJDx-Lq1g
 
+Я проверил как версию .NetCore, так и версию самого Docker. Должно быть совместимым.
 ![docker-error 1](https://user-images.githubusercontent.com/71845085/97424304-93401e00-1921-11eb-9109-47b9b531eb00.PNG)
 ![docker-error 2](https://user-images.githubusercontent.com/71845085/97424318-989d6880-1921-11eb-8913-d1549803f980.PNG)
 ![docker-error 3](https://user-images.githubusercontent.com/71845085/97424321-99ce9580-1921-11eb-8a4d-852952cb51d0.PNG)
